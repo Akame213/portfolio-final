@@ -1,0 +1,22 @@
+
+{
+  "name": "portfolio-vue",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "serve" : "astro dev",
+    "dev": "astro dev",
+    "start": "vue-cli-service serve",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+    
+  },
+  "dependencies": {
+    "astro": "^4.7.0",
+    "@astrojs/check": "^0.5.10",
+    "typescript": "^5.4.5",
+    "pkg": "^5.8.1"
+  
+  }
+}
